@@ -6,7 +6,7 @@ const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 const generateContent = async (req, res) => {
   const userPrompt = req.body.prompt; // Get the user's prompt from the request body
-
+  console.log(userPrompt)
   try {
     // Use the user's prompt in the API request
     const result = await model.generateContent(userPrompt);

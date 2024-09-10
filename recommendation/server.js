@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.post("/api/generate-content", generateContent); // Use the function from gemini.js
 
 // Define the port
-const PORT = process.env.PORT || 3000;
+const PORT = 5000; // Change the port to 5000
 
 // Start the server
 app.listen(PORT, () => {
