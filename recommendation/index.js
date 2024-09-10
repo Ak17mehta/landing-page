@@ -5,8 +5,6 @@ const generateContent = require("./gemini.js"); // Path to gemini.js
 const cors = require("cors");
 
 
-
-
 const app = express();
 app.use(cors());
 app.use(express.json()); // To parse JSON request bodies

@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recommendation</title>
+    <title>Skill Insights Generator</title>
 </head>
 <body>
     <h1>Skill Insights Generator</h1>
 
+    <!-- First Form for Field of Interest -->
     <form id="promptForm">
-        <label for="prompt">Enter your prompt:</label>
+        <label for="prompt">Enter your field of interest:</label>
         <input type="text" id="prompt" required>
         <button type="submit">Submit</button>
     </form>
 
+    <!-- Placeholder for Questions and Next Form -->
     <h2>Response:</h2>
     <div id="response"></div>
+    <div id="nextFormContainer"></div> <!-- Placeholder for next prompts -->
 
     <script src="main.js"></script>
 </body>
