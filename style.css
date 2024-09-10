@@ -38,8 +38,8 @@ body {
 
 .logo-img {
     justify-content: left;
-    width: 150px;
-    height: 19.7px;
+    width: 100px;
+    height: 100px;
 }
 
 .link {
@@ -97,63 +97,12 @@ body {
     box-sizing: border-box;
 }
 
-.marketing {
-    padding: 100px 50px 120px;
-}
-
-.container2 {
-    display: flex;
-}
-
-.Largest-Stock-Broker {
-    padding-right: 150px;
-}
-
-.img-margin {
+.varsity {
     width: 432.66px;
     height: 310.65px;
     margin: 0px 0px 30px;
 }
 
-.marketing-content {
-    padding-left: 0px;
-}
-
-.marketing-heading {
-    display: block;
-    font-size: 32px;
-    line-height: 1.5;
-    /* margin-top: 0px; */
-    margin: 0px 0px 20px;
-
-}
-
-.marketing-description {
-    font-size: 16px;
-    line-height: 1.8;
-    margin: 16px 0px 15px;
-}
-
-.options {
-    display: flex;
-}
-
-.list {
-    width: 48%;
-}
-
-.list-items {
-    margin-bottom: 5px;
-    font-size: 16px;
-    line-height: 1.7;
-}
-
-.press-strip {
-    /* width: 528px; */
-    margin: 16px;
-    margin-bottom: 15px;
-    /* border: 2px solid ; */
-}
 
 .ecosystem {
     padding: 0px 20px 120px;
@@ -185,17 +134,17 @@ body {
     margin: 5px 0px 32px;
 }
 
+.roadmap-image {
+    width: 700px;
+    height: 580px;
+    margin: 20px 0px 0px;
+}
+
 .exploreLink,.demo {
     text-decoration: none;
     color: #387ed1;
     font-weight: 600;
     padding-right: 1cm;
-}
-
-.ecosystem-img {
-    width: 590.63px;
-    height: 580px;
-    margin: 20px 0px 0px;
 }
 
 .pricing {
@@ -300,17 +249,12 @@ body {
     font-size: 16px;
 }
 
-.Zerodha {
-    padding: 40px 0px 80px;
-}
-
 .container6 {
     margin: 0px 181.333px;
 }
 
-.container6 h2 {
-    margin: 0px 0px 20px;
-    font-size: 32px;
+.text-grey{
+    color: grey;
 }
 
 .text-med {
@@ -318,160 +262,10 @@ body {
     font-size: 16px;
 }
 
-.container7 {
-    margin: 0px 81.667px;
-}
-
-.footer1 {
-    display: flex;
-    line-height: 2;
-    justify-content: space-between;
-}
-
-.footer-logo {
-    padding: 10px 0px;
-}
-
-.footer-img {
-    width: 152.25px;
-    height: 20px;
-}
-
-.copyright-information {
-    line-height: 1;
-}
-
-.copyright {
-    font-size: 12.8px;
-}
-
-.text-grey {
-    /* font-size: 12.8px; */
-    color: #666;
-}
-
-.social {
-    font-size: 16px;
-    display: flex;
-    list-style: none;
-    margin: 15px -35px 0px;
-}
-
-.twitter-logo {
-    width: 18px;
-    height: 24px;
-}
-
-.fa {
-    display: inline-block;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    padding: 5px 0px 0px;
-    font-size: 20px;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 3px;
-    align-items: center;
-}
-
-.fa-facebook {
-    margin: -5px 4px;
-}
-
-.fa-instagram {
-    margin: -5px 4px;
-}
-
-.fa-linkedin {
-    margin: -5px 4px;
-}
-
-.fa-telegram {
-    margin: -5px 4px;
-}
-
-.youtube-logo {
-    padding-left: 3px;
-    width: 26px;
-    height: 26px;
-}
-
 .list-style {
     list-style: none;
 }
 
-.nav-head {
-    font-size: 18px;
-    font-weight: 600;
-    color: rgba(66, 66, 66, 1);
-    margin-bottom: 10px;
-}
-
-.nav-lists {
-    color: rgba(102, 102, 102, 1);
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.footer2 {
-    color: rgba(155, 155, 155, 1);
-}
-
-.smallprint {
-    font-size: 10.4px;
-}
-
-.footer-email {
-    color: rgba(56, 126, 209, 1);
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.footer-link {
-    color: rgba(56, 126, 209, 1);
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.footer-para {
-    margin: 0px 0px 10px;
-}
 
 
-.footer-graveyard-links {
-    display: flex;
-}
 
-.foot-list-links {
-    margin-left: 100px;
-    /* justify-content: right; */
-    display: flex;
-    list-style: none;
-}
-
-.foot-links {
-    font-size: 12px;
-    color: #9B9B9B;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    /* justify-content: center; */
-    /* justify-items: s; */
-    /* margin: 0px 20px 0px 0px; */
-    padding: 0px 20px 0px 0px;
-}
-
-#footer {
-    width: 100%;
-    background: #FAFAFB;
-    color: #666;
-    padding: 30px 0px 5px;
-}
-.container7{
-    display: flex;
-    justify-content: space-evenly;
-}
